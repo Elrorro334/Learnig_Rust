@@ -21,4 +21,7 @@ fn main() {
 
     let my_int64: i64 = 7;
     println!("{my_int64}");
+
+    let my_float: f64 = 6.5;
+    println!("{my_float}");
 }

@@ -1,1 +1,5 @@
 /target
+/src/*.exe
+/src/*.pdb
+*.exe
+*.pdb
