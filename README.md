@@ -22,3 +22,25 @@ fn main() {
     println!("Hola, Rust!");
 }
 ```
+
+## Variables y Tipos de Cadenas (Mutabilidad)
+Ejemplo práctico de mutabilidad de cadenas usando referencias a literales (`&str`) y cadenas dinámicas en heap (`String`):
+
+```rust
+fn main() {
+    // Declaración mutable usando &str
+    let mut my_string: &str = "Esto es una cadena de texto";
+    println!("{my_string}");
+    
+    my_string = "Aqui se cambio el valor de la cadena de texto";
+    println!("{my_string}");
+    
+    my_string = "Prueba de mutacion";
+    println!("{my_string}");
+
+    // Creación de una cadena dinámica en heap usando String
+    let my_string2: String = String::from("Esta es otra cadena de texto");
+    println!("{my_string2}");
+}
+```
+
