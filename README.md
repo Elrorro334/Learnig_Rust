@@ -1,5 +1,5 @@
 # Rust
-**Tema:** Framework web (Tauri)
+**En un futuro lo usaré:** Framework web (Tauri)
 
 *Apuntes tomados por mi, Rodrigo.*
 
